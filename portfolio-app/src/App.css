@@ -39,6 +39,26 @@ p {
   
 }
 
+ul, ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li, ol li{
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-bottom: .25rem;
+  padding-top: .25rem;
+
+  margin-top: .5rem;
+  margin-right: .5rem;
+
+  background-color: rgba(45,212,191,.1);
+  color: rgb(94 234 212);
+  border-radius: 9999px;
+}
+
 .App {
   background-color: var(--DARK_BLUE);
   font-family: 'NotoSansOsmanya-Regular', sans-serif;
