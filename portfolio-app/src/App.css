@@ -1,3 +1,5 @@
+@import url('Fonts.css');
+
 :root {
   --DARK_BLUE: rgb(15, 23, 42);
   --MED_BLUE: rgb(28, 45, 85);
@@ -6,6 +8,14 @@
   --FONT_SIZE: 1rem;
   --H1_FONT_SIZE: 3rem;
   --H2_FONT_SIZE: 1.25rem;
+}
+
+header {
+  background-color: var(--DARK_BLUE);
+}
+
+body {
+  background-color: var(--DARK_BLUE);
 }
 
 html {
@@ -31,6 +41,7 @@ p {
 
 .App {
   background-color: var(--DARK_BLUE);
+  font-family: 'NotoSansOsmanya-Regular', sans-serif;
   color: var(--TEXT_BLUE);
   padding: 1rem;
   font: var(--FONT_SIZE);
@@ -40,6 +51,10 @@ p {
 .App-header li {
   display: flex;
   flex-direction: column;
+}
+.main-body {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 @media (min-width: 768px) {
