@@ -1,10 +1,7 @@
-import React from 'react';
-import './App.css'
-
 function AboutMe() {
     return (
         <div>
-            <h2>About Me</h2>
+            <h2><strong>About Me</strong></h2>
             <p>
                 I will be graduating from the University of Houston in December 2023 with a bachelor's degree in computer science and a minor in mathematics. 
                 Throughout my academic journey, I've maintained a 3.7 GPA and consistently earned a place on the dean's list. 
@@ -20,7 +17,7 @@ function AboutMe() {
                 The only part of the web design I did not do was adding the UH standard CSS to the page.
             </p>
             
-            <h2>Hobbies</h2>
+            <h3>Hobbies</h3>
             <p>
                 I was a varsity wrestler in high school, and <strong>wrestling</strong> is my favorite sport by far.
                 I am on my journey of learning other martial arts such as muay thai and judo.

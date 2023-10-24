@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Container fluid="md">
         <Row>
-          <Col md={5} >
+          <Col md={5}>
             <Header />
           </Col>
           
