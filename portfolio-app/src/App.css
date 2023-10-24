@@ -43,7 +43,7 @@ ul, ol {
   flex-wrap: wrap;
 }
 
-ul li, ol li, .main-body ul li{
+ul li, ol li{
   padding-left: .75rem;
   padding-right: .75rem;
   padding-bottom: .25rem;
@@ -102,6 +102,23 @@ ul li, ol li, .main-body ul li{
 .resume a {
   text-decoration: none;
   color: var(--TEXT_BLUE);
+}
+
+.image-list li {
+  background-color: var(--DARK_BLUE);
+}
+
+.image-list li:hover {
+  background-color: var(--DARK_BLUE);
+}
+
+.image-list li svg {
+  color: var(--TEXT_BLUE);
+  width: 3rem;
+}
+
+.image-list li svg:hover {
+  color: var(--HIGHLIGHT);
 }
 
 @media (min-width: 768px) {

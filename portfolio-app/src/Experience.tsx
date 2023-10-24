@@ -5,7 +5,7 @@ function Experience() {
     return (<>
         <h2><strong>Experience</strong></h2>
         <p>
-            I am an experienced full stack web developer. I started by web development career in my sophmore year of college.
+            I am an experienced <strong>full stack web developer</strong>. I started by web development career in my sophmore year of college.
             I was lucky enough to take on 2 positions at the same time.  I got a part time webmaster internship working with H-GAC and 
             a reasearch project with UH. I could do my job during the day and do research in my free time at night.  
         </p>
@@ -15,13 +15,13 @@ function Experience() {
             meetings to get constant feedback, however I planned, built, and deployed a web model in a short amount of time.
         </p>
         <p>
-            After this research assignment, I took a short break and started a second research assignment.  Although this one was not
-            software focused, it taught me a lot about statistics and mathematics.  Along with how to seek out resources and problem solve. 
+            After this research assignment, I shortly after started on a second research assignment.  Although this one was not
+            software focused, it taught me a lot about <strong>statistics and mathematics</strong>.  Additonally, I learned how to seek out resources and focused on my problem solving skills. 
             This second research is still undergoing approval, however I am excited to see it published.
         </p>
         <p>
             Most recently in the summer of 2023 I joined the <strong>Hewlett-Packard</strong> team for a summer internship.
-            It was an amazing experience and made me realized how much there is to learn as a full stack developer. I am
+            It was an amazing experience and made me realized how much there is to learn as a <strong>full stack developer</strong>. I am
             excited to get more opportunities to expand my knowledge in software design.
         </p>
     
