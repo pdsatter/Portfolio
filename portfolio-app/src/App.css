@@ -43,7 +43,7 @@ ul, ol {
   flex-wrap: wrap;
 }
 
-ul li, ol li{
+ul li, ol li, .main-body ul li{
   padding-left: .75rem;
   padding-right: .75rem;
   padding-bottom: .25rem;
@@ -90,9 +90,18 @@ ul li, ol li{
   border-bottom: 2px solid var(--TEXT_CYAN); 
 }
 
+.main-body a {
+  text-decoration: none;
+  color: var(--TEXT_CYAN);
+}
+
+.main-body li:hover {
+  background-color: var(--HIGHLIGHT);
+}
+
 .resume a {
   text-decoration: none;
-  color: var(--TEXT_BLUE)
+  color: var(--TEXT_BLUE);
 }
 
 @media (min-width: 768px) {
