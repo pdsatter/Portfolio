@@ -1,5 +1,6 @@
 import AboutMe from './AboutMe';
 import Experience from './Experience';
+import Resume from './Resume';
 import './App.css'
 
 function Body() {
@@ -7,6 +8,7 @@ function Body() {
         <div className="main-body">
             <AboutMe />
             <Experience />
+            <Resume />
         </div>
         
     );

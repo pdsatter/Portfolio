@@ -3,15 +3,13 @@
 :root {
   --DARK_BLUE: rgb(15, 23, 42);
   --MED_BLUE: rgb(28, 45, 85);
+  --HIGHLIGHT: rgb(57, 72, 107);
 
   --TEXT_BLUE: rgb(203,214,238);
+  --TEXT_CYAN: rgb(94 234 212);
   --FONT_SIZE: 1rem;
   --H1_FONT_SIZE: 3rem;
   --H2_FONT_SIZE: 1.25rem;
-}
-
-header {
-  background-color: var(--DARK_BLUE);
 }
 
 body {
@@ -55,7 +53,7 @@ ul li, ol li{
   margin-right: .5rem;
 
   background-color: rgba(45,212,191,.1);
-  color: rgb(94 234 212);
+  color: var(--TEXT_CYAN);
   border-radius: 9999px;
 }
 
@@ -72,9 +70,29 @@ ul li, ol li{
   display: flex;
   flex-direction: column;
 }
+
 .main-body {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.experience {
+  padding: .5rem;
+  border-radius: .375rem;
+  display: grid;
+}
+
+.experience:hover{
+  background: var(--HIGHLIGHT);
+}
+
+.resume:hover span {
+  border-bottom: 2px solid var(--TEXT_CYAN); 
+}
+
+.resume a {
+  text-decoration: none;
+  color: var(--TEXT_BLUE)
 }
 
 @media (min-width: 768px) {

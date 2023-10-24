@@ -26,7 +26,7 @@ function Experience() {
         </p>
     
         <Row>
-            <Col xs={12}>
+            <Col xs={12} className="experience">
                 <h4><b>Hewlett-Packard (HP)</b></h4>
                 <h5>Software Developer, Intern</h5>
                 <header><i>June 2023 - Aug 2023</i></header>
@@ -48,7 +48,7 @@ function Experience() {
                 </ul>
             </Col>
 
-            <Col xs={12}>
+            <Col xs={12} className="experience">
                 <h4><b>Houston Galveston Area Council (H-GAC)</b></h4>
                 <h5>Webmaster, Intern</h5>
                 <header><i>Aug 2021 - June 2023</i></header>
@@ -69,7 +69,7 @@ function Experience() {
                 </ul>
             </Col>
 
-            <Col xs={12}>
+            <Col xs={12} className="experience">
                 <h4><b>University of Houston</b></h4>
                 <h5>Software Developer & Researcher</h5>
                 <header><i>Aug 2021 - June 2023</i></header> 
@@ -85,7 +85,7 @@ function Experience() {
                 </p>
                 <p>
                     For more detailed information, 
-                    please refer to the accompanying <a href="https://uh.edu/uh-energy/research/white-papers/vehicle-ghg-emissions">White Paper</a> and <a href="https://flask.cs.uh.edu/">Web Pages</a>.
+                    please refer to the accompanying <a target="_blank" href="https://uh.edu/uh-energy/research/white-papers/vehicle-ghg-emissions">White Paper</a> and <a target="_blank" href="https://flask.cs.uh.edu/">Web Pages</a>.
                 </p>
                 <ul>
                     <li>Flask</li>
