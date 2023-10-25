@@ -6,8 +6,8 @@ function Experience() {
         <h2><strong>Experience</strong></h2>
         <p>
             I am an experienced <strong>full stack web developer</strong>. I started by web development career in my sophmore year of college.
-            I was lucky enough to take on 2 positions at the same time.  I got a part time webmaster internship working with H-GAC and 
-            a reasearch project with UH. I could do my job during the day and do research in my free time at night.  
+            I was lucky enough to take on 2 positions at the same time.  I started working a part time webmaster position working with H-GAC and 
+            also started a research project with UH. I could do my job during the day and do research in my free time at night.  
         </p>
         <p>
             This added a lot of stress because I still had to get good grades at school, but it really slingshotted my experience working with websites. 
@@ -21,7 +21,7 @@ function Experience() {
         </p>
         <p>
             Most recently in the summer of 2023 I joined the <strong>Hewlett-Packard</strong> team for a summer internship.
-            It was an amazing experience and made me realized how much there is to learn as a <strong>full stack developer</strong>. I am
+            It was an amazing experience and made me realize how much there is to learn as a <strong>full stack developer</strong>. I am
             excited to get more opportunities and expand my knowledge in software design.
         </p>
     
