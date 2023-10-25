@@ -15,7 +15,7 @@ function Experience() {
             meetings to get constant feedback, however I planned, built, and deployed a web model in a short amount of time.
         </p>
         <p>
-            After this research assignment, I shortly after started on a second research assignment.  Although this one was not
+            After this research assignment, I started shortly after on a second research assignment.  Although this one was not
             software focused, it taught me a lot about <strong>statistics and mathematics</strong>.  Additonally, I learned how to seek out resources and focused on my problem solving skills. 
             This second research is still undergoing approval, however I am excited to see it published.
         </p>
