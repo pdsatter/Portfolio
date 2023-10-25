@@ -53,10 +53,10 @@ function Experience() {
                 <h5>Webmaster, Intern</h5>
                 <header><i>Aug 2021 - June 2023</i></header>
                 <p>
-                    In my role as a full-stack developer, I was responsible for further developing an up and coming technology for HP. 
-                    I worked on the webpage and backed for an additional feature that is essential to the operation of the project.
-                    I was able to surpass the expeced goals of my project and take on a greater scope.
-                    Due to signing and NDA I cannot go into detail about what I worked on, but I had a great time working on this project.
+                    As a full-stack webmaster, I was responsible for the development and maintenance of our website. 
+                    My role involved creating web forms and various web components, which included tasks such as database management, 
+                    user input validation, payment processing, and email confirmation. 
+                    I accumulated two years of experience working in our full-stack development team.
                 </p>
                 <ul>
                     <li>ASP.NET</li>
