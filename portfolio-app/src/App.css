@@ -71,11 +71,6 @@ ul li, ol li{
   flex-direction: column;
 }
 
-.main-body {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .experience {
   padding: .5rem;
   border-radius: .375rem;
@@ -93,10 +88,6 @@ ul li, ol li{
 .main-body a {
   text-decoration: none;
   color: var(--TEXT_CYAN);
-}
-
-.main-body li:hover {
-  background-color: var(--HIGHLIGHT);
 }
 
 .resume a {
@@ -121,6 +112,13 @@ ul li, ol li{
   color: var(--HIGHLIGHT);
 }
 
+.main-body {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+/* Desktop Only Styling */
 @media (min-width: 768px) {
   .App-header {
     padding-top: 50%;
@@ -129,5 +127,15 @@ ul li, ol li{
   .Sticky {
     position: sticky;
     top: 0;
+    z-index: 100;
+  }
+
+  .resume-padding {
+    padding-top: 12rem;
+  }
+
+  .main-body {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }

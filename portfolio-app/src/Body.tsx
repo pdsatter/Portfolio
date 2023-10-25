@@ -8,7 +8,7 @@ function Body() {
         <div className="main-body">
             <AboutMe />
             <Experience />
-            <Resume />
+            
         </div>
         
     );
