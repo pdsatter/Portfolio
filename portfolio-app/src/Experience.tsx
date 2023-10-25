@@ -22,7 +22,7 @@ function Experience() {
         <p>
             Most recently in the summer of 2023 I joined the <strong>Hewlett-Packard</strong> team for a summer internship.
             It was an amazing experience and made me realized how much there is to learn as a <strong>full stack developer</strong>. I am
-            excited to get more opportunities to expand my knowledge in software design.
+            excited to get more opportunities and expand my knowledge in software design.
         </p>
     
         <Row>
