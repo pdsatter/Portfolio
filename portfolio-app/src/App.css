@@ -57,6 +57,15 @@ ul li, ol li{
   border-radius: 9999px;
 }
 
+#spotlight {
+  position: absolute;
+  background-color: transparent;
+  border: 10px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: all 0.1s;
+}
+
 .App {
   background-color: var(--DARK_BLUE);
   font-family: 'NotoSansOsmanya-Regular', sans-serif;
