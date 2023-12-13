@@ -78,10 +78,19 @@ function Experience() {
                     <b>Light-Duty Vehicle GHG Emissions: A Transparent, Dynamic Model</b>
                 </p>
                 <p>
-                    I designed a webpage for the University of Houston (UH) using Flask and JavaScript. 
-                    This website allows users’ to input data. The backend processes this data and returns charts based on our model.
-                    The entire web project was designed and deployed by me. The frontend was designed by me, 
-                    but it adheres to UH's standard CSS for a polished and professional appearance. The website features a user-friendly navigation menu at the top, and there are a total of four pages to explore.
+                    The first project was focused on taking an existing model and making it a web based model.  
+                    I needed to fully plan, build, and deploy a web based application for this.  
+                    Some of the requirements were being able to take user input, and output an updated model. 
+                    Supporting large loads of viewers. Having a consistent experience for the user across the multiple web pages needed for this.
+                </p>
+                <p>
+                    I was the only computer science person on the team, so I had to do my low level planning, and have meetings to explain the higher level 
+                    details to non-computer science team members.
+                </p>
+                <p>
+                    My second research assignment with them focused more on doing the research and building my own model. 
+                    I had to research the emissions of Electric Vehicles vs Gasoline vehicles. I used linear regressions and other 
+                    statistical models during this research project.
                 </p>
                 <p>
                     For more detailed information, 
