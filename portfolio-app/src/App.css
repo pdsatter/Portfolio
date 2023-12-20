@@ -10,6 +10,9 @@
   --FONT_SIZE: 1rem;
   --H1_FONT_SIZE: 3rem;
   --H2_FONT_SIZE: 1.25rem;
+
+  /* Overwrite bootstrap */
+  --bs-accordion-bg: var(--DARK_BLUE);
 }
 
 body {
@@ -126,6 +129,21 @@ ul li, ol li{
   padding-bottom: 1rem;
 }
 
+.photo {
+  height: 400px;
+  margin: auto;
+}
+
+body .accordion, 
+body .accordion-item,
+body .accordion-button {
+  background-color: var(--MED_BLUE);
+  color: var(--TEXT_BLUE);
+}
+
+body .accordion-button.collapsed:hover {
+  background: var(--HIGHLIGHT);
+}
 
 /* Desktop Only Styling */
 @media (min-width: 768px) {
