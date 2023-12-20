@@ -1,12 +1,13 @@
 import AboutMe from './AboutMe';
 import Experience from './Experience';
-import Resume from './Resume';
+import Hobbies from './Hobbies';
 import './App.css'
 
 function Body() {
     return (
         <div className="main-body">
             <AboutMe />
+            <Hobbies />
             <Experience />
             
         </div>
