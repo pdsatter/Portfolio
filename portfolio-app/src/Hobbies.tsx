@@ -1,5 +1,7 @@
 import { Carousel } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
+import jugglingVideoMov from "./videos/juggling.mov";
+import jugglingVideoMp4 from "./videos/juggling.mp4";
 
 function WrestlingCarousel() {
     return(
@@ -30,11 +32,21 @@ function WrestlingCarousel() {
     
 }
 
+const JugglingVideo: React.FC = () => {
+    return (
+      <video controls muted width={600} height={600}>
+        <source src={jugglingVideoMp4} type="video/mp4" />
+        <source src={jugglingVideoMov} type="video/quicktime" />
+        Your browser does not support the video tag.
+      </video>
+    );
+  };
+
 function Hobbies() {
     return (
         <div>
             <h2><strong>Hobbies</strong></h2>
-            <Accordion defaultActiveKey="0">
+            <Accordion>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>Wrestling</Accordion.Header>
                     <Accordion.Body>
@@ -54,6 +66,9 @@ function Hobbies() {
                             I love learning new skills. One interesting skill I learned is <strong>juggling</strong>.
                             Juggling takes a lot of work to learn, but learning the tricks is worth it in the end.
                         </p>
+
+                        <JugglingVideo />
+
                     </Accordion.Body>
                 </Accordion.Item>
 
