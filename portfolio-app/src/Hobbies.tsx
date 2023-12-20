@@ -1,3 +1,5 @@
+import { Carousel } from "react-bootstrap";
+
 function Hobbies() {
     return (
         <div>
@@ -7,6 +9,23 @@ function Hobbies() {
                 I was a varsity wrestler in high school, and <strong>wrestling</strong> is my favorite sport by far.
                 I am on my journey of learning other martial arts such as muay thai and judo.
             </p>
+
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={require("./photos/Wrestling1.jpg")}
+                    alt="First slide"
+                    ></img>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://lorempixel.com/800/400/food/1"
+                    alt="First slide"
+                    ></img>
+                </Carousel.Item>
+            </Carousel>
 
             <h4>Juggling</h4>
             <p>
