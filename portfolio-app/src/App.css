@@ -115,10 +115,6 @@ video {
   background-color: var(--DARK_BLUE);
 }
 
-.image-list li:hover {
-  background-color: var(--DARK_BLUE);
-}
-
 .image-list li svg {
   color: var(--TEXT_BLUE);
   width: 3rem;
@@ -126,6 +122,31 @@ video {
 
 .image-list li svg:hover {
   color: var(--HIGHLIGHT);
+}
+
+.text-horizontal-list {
+  margin: 0;
+  padding: 0;
+}
+
+.text-horizontal-list li,
+.text-horizontal-list li a {
+  color: var(--TEXT_BLUE);
+  background-color: var(--DARK_BLUE);
+
+  padding-left: 0;
+  padding-right: 0;
+
+  border-radius: 0;
+}
+
+.text-horizontal-list li a:hover {
+  border-bottom: 2px solid var(--TEXT_CYAN); 
+}
+
+.text-horizontal-list li:not(:last-child):after {
+  content: '\00b7';
+  margin-left: 10px;
 }
 
 .main-body {
