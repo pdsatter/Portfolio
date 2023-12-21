@@ -60,6 +60,10 @@ ul li, ol li{
   border-radius: 9999px;
 }
 
+video {
+  width: 100%;
+}
+
 #spotlight {
   position: absolute;
   background-color: transparent;
