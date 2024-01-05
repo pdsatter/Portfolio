@@ -17,6 +17,20 @@ function Experience() {
     
         <Row>
             <Col xs={12} className="experience">
+                <h4><b>GOWell</b></h4>
+                <h5>Software Engineer</h5>
+                <header><i>January 2024 - Current</i></header>
+                <p>
+                    Focus on software engineering efforts including development, design, implementation, test, deploy, and providing training for R&D projects.  
+                    Support BD and clients, including testing, conferencing, training, and presentation,  when needed.  
+                </p>
+                <ul>
+                    <li>R&D</li>
+                    <li>Generative AI</li>
+                    <li>AWS</li>
+                </ul>
+            </Col>
+            <Col xs={12} className="experience">
                 <h4><b>Hewlett-Packard (HP)</b></h4>
                 <h5>Software Developer, Intern</h5>
                 <header><i>June 2023 - Aug 2023</i></header>
@@ -76,7 +90,7 @@ function Experience() {
                 </p>
                 <p>
                     For more detailed information, 
-                    please refer to the accompanying <a target="_blank" href="https://uh.edu/uh-energy/research/white-papers/vehicle-ghg-emissions">White Paper</a> and <a target="_blank" href="https://flask.cs.uh.edu/">Web Pages</a>.
+                    please refer to the accompanying <a target="_blank" rel="noreferrer" href="https://uh.edu/uh-energy/research/white-papers/vehicle-ghg-emissions">White Paper</a> and <a target="_blank" rel="noreferrer" href="https://flask.cs.uh.edu/">Web Pages</a>.
                 </p>
                 <ul>
                     <li>Flask</li>
