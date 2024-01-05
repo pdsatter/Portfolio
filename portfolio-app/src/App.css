@@ -97,6 +97,10 @@ video {
   background: var(--HIGHLIGHT);
 }
 
+.standard-margin-btm {
+  margin-bottom: 16px;
+}
+
 .resume:hover span {
   border-bottom: 2px solid var(--TEXT_CYAN); 
 }
