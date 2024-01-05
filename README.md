@@ -1,8 +1,15 @@
 # Portfolio
-Run by 
+### Run by 
+```
 cd portfolio-app
 npm start
+```
 
 
-Deploy to web page by
+### Deploy to web page by
+```
+cd portfolio-app
 npm run deploy
+```
+
+
