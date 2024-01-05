@@ -10,18 +10,21 @@ function WrestlingCarousel() {
                 <img
                 className="photo d-block"
                 src={require("./photos/Wrestling1.jpg")}
+                alt="Photo 1"
                 ></img>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="photo d-block"
                 src={require("./photos/Wrestling2.jpg")}
+                alt="Photo 2"
                 ></img>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                 className="photo d-block"
                 src={require("./photos/Trophy.jpg")}
+                alt="Photo 3"
                 ></img>
             </Carousel.Item>
         </Carousel>
