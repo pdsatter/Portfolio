@@ -27,7 +27,9 @@ function Experience() {
                 <ul>
                     <li>R&D</li>
                     <li>Generative AI</li>
-                    <li>AWS</li>
+                    <li>Web Development</li>
+                    <li>UML</li>
+                    <li>Project Design</li>
                 </ul>
             </Col>
             <Col xs={12} className="experience">
