@@ -76,7 +76,7 @@ function Hobbies() {
                     <Accordion.Header>Gaming</Accordion.Header>
                     <Accordion.Body>
                         <p>
-                            I also love to game in my free time.  Some of my favorite games are <strong>Rocket League, CS2, Super Smash Bros, and Rainbow Six Siege</strong>.
+                            I also love to game in my free time.  Some of my favorite games are <strong>Rocket League, Counter Strike 2, Street Fighter 6, Super Smash Bros, and Rainbow Six Siege</strong>.
                         </p>
                     </Accordion.Body>
                 </Accordion.Item>
