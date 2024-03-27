@@ -40,7 +40,7 @@ const JugglingVideo: React.FC = () => {
         Your browser does not support the video tag.
       </video>
     );
-  };
+};
 
 function Hobbies() {
     return (

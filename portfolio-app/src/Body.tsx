@@ -11,7 +11,6 @@ function Body() {
             <Hobbies />
             <Education />
             <Experience />
-            
         </div>
         
     );
