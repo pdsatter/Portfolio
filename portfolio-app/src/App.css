@@ -176,10 +176,14 @@ body .accordion-button.collapsed:hover {
 
 input {
   width: 20rem;
+  background-color: var(--MED_BLUE);
+  color: var(--TEXT_BLUE);
 }
 
 textarea {
   width: 20rem;
+  background-color: var(--MED_BLUE);
+  color: var(--TEXT_BLUE);
 }
 
 /* Desktop Only Styling */
