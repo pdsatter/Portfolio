@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -25,7 +25,7 @@ const ContactMe: React.FC = () => {
       }
     
       try {
-        const response = await fetch(
+        await fetch(
           'https://docs.google.com/forms/d/1rSI2h-h9CAE_aGdG7esOUKbS_D3DXcZRCBVBbs1sCfY/formResponse?' + params.toString(),
           {
             method: 'POST',
