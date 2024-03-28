@@ -1,7 +1,7 @@
 import Main from './Main'
 import ContactMe from './ContactMe';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
 
