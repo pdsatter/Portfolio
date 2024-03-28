@@ -49,22 +49,31 @@ const ContactMe: React.FC = () => {
     return (
       <Form  name="gform" id="gform" encType="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdBZNwf2oWJIJJMTPSaUNRxdmRAjQhEsDsxCvAZOUUqIofC2A/formResponse?" target="hidden_iframe" onSubmit={handleSubmit}>
         <Row>
+
           <Col xs={12}>
               <label htmlFor="entry.2094476171">Name:</label><br />
               <input type="text" name="entry.2094476171" id="entry.2094476171" /><br />
           </Col>
+
           <Col xs={12}>
               <label htmlFor="entry.9088148">Email / Phone Number:</label><br />
               <input type="text" name="entry.9088148" id="entry.9088148" /><br />
           </Col>
+
           <Col xs={12}>
             <label htmlFor="entry.354407219">Additional Info:</label><br />
             <textarea name="entry.354407219" id="entry.354407219" rows={10}></textarea><br />
           </Col>
+
           <Col xs={12}>
               <Button variant="primary" type="submit">Submit</Button>
-              {ContactSubmission()}
+              <Button variant="secondary" style={{ marginLeft: '1rem' }}>Home</Button>
           </Col>
+
+          <Col xs={12}>
+            {ContactSubmission()}
+          </Col>
+
         </Row>
       </Form>
     )
