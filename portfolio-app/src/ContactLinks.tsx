@@ -31,7 +31,7 @@ function ContactInfo(){
             <ul className="text-horizontal-list">
                 <li><a href="mailto:pdsatterfield21@gmail.com">pdsatterfield21@gmail.com</a></li>
                 <li><a href="tel:7245997506">724-599-7506</a></li>
-                <li><a href="/contact">Contact Form</a></li>
+                <li><a href="#/contact">Contact Form</a></li>
             </ul>
         </div>
     )
