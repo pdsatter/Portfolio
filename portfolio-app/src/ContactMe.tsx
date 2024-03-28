@@ -67,7 +67,9 @@ const ContactMe: React.FC = () => {
 
           <Col xs={12}>
               <Button variant="primary" type="submit">Submit</Button>
-              <Button variant="secondary" style={{ marginLeft: '1rem' }}>Home</Button>
+              <a href='/'>
+                <Button variant="secondary" style={{ marginLeft: '1rem' }}>Home</Button>
+              </a>
           </Col>
 
           <Col xs={12}>
