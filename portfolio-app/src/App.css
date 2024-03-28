@@ -44,15 +44,15 @@ ul, ol {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+
+  margin-top: .5rem;
 }
 
 ul li, ol li{
   padding-left: .75rem;
   padding-right: .75rem;
   padding-bottom: .25rem;
-  padding-top: .25rem;
 
-  margin-top: .5rem;
   margin-right: .5rem;
 
   background-color: rgba(45,212,191,.1);
